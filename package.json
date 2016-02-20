@@ -20,8 +20,7 @@
     "url": "https://github.com/Financial-Times/promise-rat-race/issues"
   },
   "homepage": "https://github.com/Financial-Times/promise-rat-race#readme",
-  "devDependencies": {},
-  "dependencies": {
+  "devDependencies": {
     "eslint": "^2.2.0",
     "lintspaces-cli": "^0.1.1"
   }
