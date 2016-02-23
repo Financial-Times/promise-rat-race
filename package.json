@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/Financial-Times/promise-rat-race#readme",
   "devDependencies": {
-    "next-build-tools": "^5.17.0",
-    "origami-build-tools": "^5.0.0"
+    "eslint": "^2.2.0",
+    "lintspaces-cli": "^0.1.1"
   }
 }

@@ -1,5 +1,3 @@
-install:
-	npm install
+include n.Makefile
 
-test:
-	nbt verify --skip-layout-checks
+test: verify

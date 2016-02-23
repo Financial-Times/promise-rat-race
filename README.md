@@ -12,4 +12,4 @@ require('promise-rat-race')([
 ])
 ```
 
-**Currently no tests, and only loosely maintained - use at your own risk... or submit a PR with tests, linting etc. :)**
+**Currently no tests, and only loosely maintained - use at your own risk... or submit a PR with tests etc. :)**
