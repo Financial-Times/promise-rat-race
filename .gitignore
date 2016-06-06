@@ -1,5 +1,4 @@
 node_modules
 .editorconfig
 .eslintrc.json
-/es5/
 npm-debug.log
