@@ -1,6 +1,6 @@
 {
   "name": "promise-rat-race",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "like Promise.race, but doesn't care about the losers in the race",
   "main": "rat-race.js",
   "scripts": {
@@ -24,6 +24,9 @@
   },
   "homepage": "https://github.com/Financial-Times/promise-rat-race#readme",
   "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
     "chai": "^3.5.0",
     "eslint": "^2.2.0",
     "lintspaces-cli": "^0.1.1",
