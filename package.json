@@ -1,6 +1,6 @@
 {
   "name": "promise-rat-race",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "like Promise.race, but doesn't care about the losers in the race",
   "main": "rat-race.js",
   "repository": {
