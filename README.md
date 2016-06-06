@@ -11,5 +11,3 @@ require('promise-rat-race')([
 	promise3
 ])
 ```
-
-**Currently no tests, and only loosely maintained - use at your own risk... or submit a PR with tests etc. :)**
