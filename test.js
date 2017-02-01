@@ -77,7 +77,7 @@ describe('promise-rat-race', () => {
 
 
 	it('should hang when any promise hangs', () => {
-		const resolved = false;
+		let resolved = false;
 		const hanging = new Promise(() => null);
 		return ratRace([
 			hanging,
