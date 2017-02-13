@@ -76,12 +76,12 @@ describe('promise-rat-race', () => {
 	})
 
 
-	it('should hang when any promise hangs', () => {
+	it('should hang when any promise hangs', done => {
 		let resolved = false;
 		const hanging = new Promise(() => null);
-		return ratRace([
+		ratRace([
 			hanging,
-			delay(30, 3),
+			delay(30, 3, true),
 			delay(10, 1, true),
 			delay(40, 4, true)
 		])
@@ -91,6 +91,7 @@ describe('promise-rat-race', () => {
 
 		setTimeout(() => {
 			expect(resolved).to.be.false;
+			done()
 		}, 300)
 	});
 
