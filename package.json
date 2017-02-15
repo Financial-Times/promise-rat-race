@@ -1,6 +1,6 @@
 {
   "name": "promise-rat-race",
-  "version": "1.4.0",
+  "version": "0.0.0",
   "description": "like Promise.race, but doesn't care about the losers in the race",
   "main": "rat-race.js",
   "repository": {
@@ -24,6 +24,7 @@
     "chai": "^3.5.0",
     "eslint": "^2.2.0",
     "lintspaces-cli": "^0.1.1",
-    "mocha": "^2.5.3"
+    "mocha": "^2.5.3",
+    "npm-prepublish": "^1.2.2"
   }
 }
