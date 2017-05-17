@@ -11,20 +11,27 @@
     "promise",
     "race"
   ],
-  "author": [
-    "Rhys Evans <wheresrhys@gmail.com>",
-    "Matt Andrews <matt@mattandre.ws>"
-  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Financial-Times/promise-rat-race/issues"
   },
   "homepage": "https://github.com/Financial-Times/promise-rat-race#readme",
   "devDependencies": {
+    "@financial-times/n-gage": "^1.1.4",
     "chai": "^3.5.0",
     "eslint": "^2.2.0",
     "lintspaces-cli": "^0.1.1",
     "mocha": "^2.5.3",
     "npm-prepublish": "^1.2.2"
+  },
+  "config": {
+    "pre-git": {
+      "pre-commit": [
+        "node_modules/.bin/secret-squirrel"
+      ]
+    }
+  },
+  "scripts": {
+    "commit": "commit-wizard"
   }
 }
