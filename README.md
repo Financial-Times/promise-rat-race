@@ -11,3 +11,6 @@ require('promise-rat-race')([
 	promise3
 ])
 ```
+
+## Notes on maintenance
+This used to be maintained by the ft.com team. It's now stable and shouldn't need any attention, so has been unhooked from all our build and maintenance tooling. Speak to someone in the team if any changes are needed
