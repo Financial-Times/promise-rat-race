@@ -1,3 +1,6 @@
+> [!WARNING]<br />
+> promise-rat-race has been deprecated as of **2024-02-08**, no further security patches will be applied. **This libary should not be used in new projects**, please use [`Promise.any`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/any) instead.
+
 # promise-rat-race
 Like `Promise.race()`, but doesn't care about the losers.
 
